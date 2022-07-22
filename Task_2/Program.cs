@@ -7,8 +7,8 @@ int numberA = 0;
 int numberB = 0;
 int max = 0;
 
-numberA = int.Parse(Console.ReadLine());
-numberB = int.Parse(Console.ReadLine());
+numberA = int.Parse(Console.ReadLine()!);
+numberB = int.Parse(Console.ReadLine()!);
 
 if(numberA > numberB){
     max = numberA;
