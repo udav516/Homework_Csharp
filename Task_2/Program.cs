@@ -5,15 +5,12 @@
 
 int numberA = 0;
 int numberB = 0;
-int max = 0;
 
 numberA = int.Parse(Console.ReadLine()!);
 numberB = int.Parse(Console.ReadLine()!);
 
 if(numberA > numberB){
-    max = numberA;
-    Console.Write(max);
+    Console.Write(numberA);
 }
 else
-max = numberB;
-Console.Write(max);
+Console.Write(numberB);
