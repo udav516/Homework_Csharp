@@ -9,3 +9,7 @@ numb = int.Parse(Console.ReadLine()!);
 numb = (numb / 10) % 10;
 
 Console.WriteLine(numb);
+
+// int threeNumb = Convert.ToInt32(Console.ReadLine());
+// string strNumb = Convert.ToString(threeNumb);
+// Console.WriteLine(strNumb[1]);
