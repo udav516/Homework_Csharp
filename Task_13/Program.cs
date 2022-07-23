@@ -15,3 +15,11 @@ else if (numb / 1000 == 0){
 }
 else
 Console.WriteLine(numb = (numb / 100) % 10);
+
+// int threeNumb = Convert.ToInt32(Console.ReadLine());
+// string threeNumbStr = Convert.ToString(threeNumb);
+// if (threeNumbStr.Length > 2){
+//     Console.WriteLine(threeNumbStr[2]);
+// }
+// else
+// Console.WriteLine("третьей цифры нет");
