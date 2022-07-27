@@ -8,7 +8,7 @@ int numb = int.Parse(Console.ReadLine());
 int sum = 0;
 int res = 0;
 
-while(numb !=0){
+while(numb != 0){
     sum = numb - numb % 10;
     res += numb - sum;
     numb /= 10;
