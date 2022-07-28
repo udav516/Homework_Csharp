@@ -3,23 +3,11 @@
 // 78 -> третьей цифры нет
 // 32679 -> 6
 
-int numb = 0;
+Console.Write("Введите число: ");
+string numb = Console.ReadLine()!;
 
-numb = int.Parse(Console.ReadLine()!);
-
-if (numb / 100 == 0){
-    Console.Write("третьей цифры нет");
-}
-else if (numb / 1000 == 0){
-    Console.WriteLine(numb = numb % 10);
+if (numb.Length > 2){
+    Console.WriteLine(numb[2]);
 }
 else
-Console.WriteLine(numb = (numb / 100) % 10);
-
-// int threeNumb = Convert.ToInt32(Console.ReadLine());
-// string threeNumbStr = Convert.ToString(threeNumb);
-// if (threeNumbStr.Length > 2){
-//     Console.WriteLine(threeNumbStr[2]);
-// }
-// else
-// Console.WriteLine("третьей цифры нет");
+Console.Write("третьей цифры нет");
