@@ -23,7 +23,7 @@ for (int i = 0; i < m; i++)
     }
 }
 
-void WriteArray(double[,] array)
+void PrintArray(double[,] array)
 {
     for (int i = 0; i < m; i++)
     {
@@ -35,4 +35,4 @@ void WriteArray(double[,] array)
     }
 }
 Console.WriteLine($"m = {m}, n = {n}.");
-WriteArray(array);
+PrintArray(array);
