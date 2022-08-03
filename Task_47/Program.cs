@@ -17,7 +17,7 @@ for (int i = 0; i < m; i++)
 {
     for (int j = 0; j < n; j++)
     {
-        array[i, j] = new Random().NextDouble() * 20 - 10;
+        array[i, j] = (float)new Random().NextDouble() * 20 - 10;
         array[i, j] = Math.Round(array[i, j], 1);
 
     }
