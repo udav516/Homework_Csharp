@@ -34,9 +34,6 @@ for (int i = 1; i < m; i++)
   }
 }
 
-Console.WriteLine($"\n{min+1} - строкa с наименьшей суммой ({sum}) элементов ");
-
-
 int SumElements(int[,] array, int i)
 {
   int sum = array[i,0];
@@ -46,3 +43,4 @@ int SumElements(int[,] array, int i)
   }
   return sum;
 }
+Console.WriteLine($"\n{min+1} - строкa с наименьшей суммой ({sum}) элементов ");
