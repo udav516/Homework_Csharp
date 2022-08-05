@@ -5,13 +5,6 @@
 // 11 16 15 06
 // 10 09 08 07
 
-// if (array[k, l] / 10 == 0)
-// {
-//     Console.Write($"0{array[k, l]} ");
-// }
-// else
-//     Console.Write($"{array[k, l]} ");
-
 Console.Write("Введите количество строк: ");
 int m = int.Parse(Console.ReadLine()!);
 Console.Write("Введите количество столбцов: ");
